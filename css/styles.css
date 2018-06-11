@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  width: 1600px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/*Sky animations*/
+.sky {
+  position: absolute;
+  top: 0px;
+  height: 850px;
+  width: 100%;
+  background-color: #8BCFEA;
+  animation: sky 20s 2s both ease-in;
+}
+
+@keyframes sky {
+  0% { background-color: #8BCFEA }
+  33% { background-color: #6293e5 }
+  50% { background-color: #000000 }
+  66% { background-color: #6293e5 }
+  100% { background-color: #8BCFEA }
+}
+
+
+/*Ground animations*/
+.ground {
+  position: absolute;
+  top: 850px;
+  height: 450px;
+  width: 100%;
+  background-color: #30892A;
+  animation: ground 20s 2s both ease-in;
+}
+
+@keyframes ground {
+  0% { background-color: #30892A }
+  33% { background-color: #13620C }
+  50% { background-color: #033200 }
+  66% { background-color: #13620C }
+  100% { background-color: #30892A }
+}
