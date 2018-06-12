@@ -1,0 +1,9 @@
+/*Sky animations*/
+.sky {
+  position: absolute;
+  top: 0px;
+  height: 850px;
+  width: 100%;
+  background-color: #8BCFEA;
+  animation: sky 20s 2s both infinite ease;
+}

@@ -1,0 +1,9 @@
+/*Ground animations*/
+.ground {
+  position: absolute;
+  top: 850px;
+  height: 450px;
+  width: 100%;
+  background-color: #30892A;
+  animation: ground 20s 2s both infinite ease;
+}

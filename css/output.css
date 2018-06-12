@@ -1,0 +1,83 @@
+@keyframes ground {
+  0% {
+    background-color: #30892A; }
+  33% {
+    background-color: #13620C; }
+  50% {
+    background-color: #033200; }
+  66% {
+    background-color: #13620C; }
+  100% {
+    background-color: #30892A; } }
+@keyframes sky {
+  0% {
+    background-color: #8BCFEA; }
+  33% {
+    background-color: #6293e5; }
+  50% {
+    background-color: #000000; }
+  66% {
+    background-color: #6293e5; }
+  100% {
+    background-color: #8BCFEA; } }
+@keyframes sunset {
+  0% {
+    transform: rotateZ(0deg); }
+  50% {
+    transform: rotateZ(180deg); }
+  100% {
+    transform: rotateZ(360deg); } }
+* {
+  padding: 0;
+  margin: 0; }
+
+.container {
+  display: flex;
+  width: 1600px;
+  justify-content: center;
+  flex-direction: column; }
+
+/*Ground animations*/
+.ground {
+  position: absolute;
+  top: 850px;
+  height: 450px;
+  width: 100%;
+  background-color: #30892A;
+  animation: ground 20s 2s both infinite ease; }
+
+/*Sky animations*/
+.sky {
+  position: absolute;
+  top: 0px;
+  height: 850px;
+  width: 100%;
+  background-color: #8BCFEA;
+  animation: sky 20s 2s both infinite ease; }
+
+/*Sun and Moon Animations*/
+.sun-moon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 55px;
+  width: 100%;
+  height: 1500px;
+  animation: sunset 20s 2s both infinite ease; }
+
+.sun {
+  height: 200px;
+  width: 200px;
+  background-color: orange;
+  border-radius: 50%; }
+
+.moon {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 40px 40px 0 0 white;
+  transform: rotateZ(-40deg); }
+
+/*# sourceMappingURL=output.css.map */

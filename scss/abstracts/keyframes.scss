@@ -1,0 +1,27 @@
+// Ground Animations
+@keyframes ground {
+  0% { background-color: #30892A }
+  33% { background-color: #13620C }
+  50% { background-color: #033200 }
+  66% { background-color: #13620C }
+  100% { background-color: #30892A }
+}
+
+// Sky Animations
+
+@keyframes sky {
+  0% { background-color: #8BCFEA }
+  33% { background-color: #6293e5 }
+  50% { background-color: #000000 }
+  66% { background-color: #6293e5 }
+  100% { background-color: #8BCFEA }
+}
+
+
+// Sun and Moon Animations
+
+@keyframes sunset {
+  0% {transform: rotateZ(0deg);}
+  50% { transform: rotateZ(180deg);}
+  100% { transform: rotateZ(360deg);}
+}
